@@ -1,0 +1,264 @@
+Perfect 👍 — adding an Admin role makes the system more secure and realistic.
+
+Now your system has 3 roles:
+
+👑 Admin
+
+🏠 Landlord
+
+👤 Tenant
+
+Below is a clean feature breakdown including the Admin.
+
+🏗 Updated System Structure
+👑 1️⃣ Admin Role
+
+The Admin controls the platform.
+
+Admin Permissions
+👥 User Management
+
+Create Landlord accounts
+
+View all landlords
+
+Edit landlord details
+
+Activate / Deactivate landlords
+
+Delete landlords (optional)
+
+View all tenants
+
+Suspend tenants if needed
+
+🏠 Property Oversight
+
+View all properties
+
+Assign properties to landlords (optional)
+
+Remove properties
+
+📋 Task Oversight
+
+View all tasks created
+
+View submissions
+
+Override approvals (if dispute happens)
+
+Audit landlord decisions
+
+💰 Reward Oversight
+
+View monthly reward summaries
+
+Monitor reward payouts
+
+Export reports (CSV / PDF)
+
+📊 Dashboard
+
+Admin dashboard shows:
+
+Total landlords
+
+Total tenants
+
+Active tasks
+
+Completed tasks
+
+Monthly rewards issued
+
+🔐 Updated Authentication & Role System
+
+Add role column in Users table:
+
+role:
+- admin
+- landlord
+- tenant
+
+Role-Based Access Control (RBAC)
+Action	Admin	Landlord	Tenant
+Create Landlord	✅	❌	❌
+Create Task	❌	✅	❌
+Submit Task	❌	❌	✅
+Approve Submission	❌	✅	❌
+View All Data	✅	Limited	Limited
+🗂 Updated Database Design
+Users Table
+
+id
+
+name
+
+email
+
+password
+
+role (admin/landlord/tenant)
+
+status (active/suspended)
+
+created_at
+
+Properties Table
+
+id
+
+landlord_id
+
+address
+
+created_at
+
+Tasks Table
+
+id
+
+landlord_id
+
+tenant_id
+
+property_id
+
+title
+
+description
+
+reward_amount
+
+deadline
+
+status
+
+Submissions Table
+
+id
+
+task_id
+
+tenant_id
+
+image_url
+
+comment
+
+submitted_at
+
+status
+
+landlord_feedback
+
+Rewards Table
+
+id
+
+tenant_id
+
+month
+
+total_reward
+
+paid_status
+
+🧭 Full Workflow With Admin
+Step 1: Admin
+
+Creates landlord account
+
+Landlord receives login credentials
+
+Step 2: Landlord
+
+Logs in
+
+Adds property
+
+Adds tenant
+
+Creates tasks
+
+Step 3: Tenant
+
+Logs in
+
+Views tasks
+
+Uploads image proof
+
+Submits
+
+Step 4: Landlord
+
+Reviews submission
+
+Approves or rejects
+
+Step 5: System
+
+Calculates monthly rewards
+
+Generates summary
+
+Step 6: Admin (Optional Oversight)
+
+Reviews disputes
+
+Generates reports
+
+🔒 Security Improvements with Admin
+
+Only admin can create landlords
+
+Landlords cannot create other landlords
+
+Admin can suspend accounts
+
+Full audit log:
+
+Who approved what
+
+When
+
+IP logs (optional)
+
+🎨 Pages Needed Now
+👑 Admin Pages
+
+Admin Login
+
+Dashboard
+
+Create Landlord
+
+Manage Landlords
+
+View All Users
+
+System Reports
+
+🏠 Landlord Pages
+
+Dashboard
+
+Create Task
+
+Manage Tasks
+
+Review Submissions
+
+Reward Summary
+
+👤 Tenant Pages
+
+Dashboard
+
+Task List
+
+Upload Submission
+
+Reward History
