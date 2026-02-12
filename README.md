@@ -59,7 +59,7 @@ The app uses the **`rentshield`** database with collections such as:
 ## Tech Stack
 
 - **Frontend:** Next.js (App Router) + React
-- **Backend:** Next.js API routes
+- **Backend:** Python API routes
 - **Database:** MongoDB Atlas (CursorEvent cluster) via official `mongodb` driver
 - **AI:** MiniMax LLM (chatcompletion_v2) + MiniMax TTS (t2a_v2)
 
