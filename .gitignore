@@ -1,3 +1,4 @@
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -23,3 +24,4 @@ wheels/
 *.egg
 .env
 .venv
+
