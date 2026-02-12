@@ -1,0 +1,72 @@
+# Cursor Northampton Hackathon Hackathon Pre-Event Setup Instructions
+
+**Event Link:** https://luma.com/cw8l2nhn
+
+**Team Formation Link:** https://forms.gle/HdSxjjbetU5Uj2FGA
+
+To ensure a smooth experience on the event day, please complete the following steps in advance:
+
+## Cursor Installation on your Laptop
+
+- 🖥️ https://cursor.com/docs/cli/installation (Install the cursor on respective OS )
+
+## Cursor Access (Credits Distributed on Event Day)
+
+1. We will be distributing **Cursor credits** during the hackathon
+2. Please familiarise yourself with Cursor beforehand: 
+    - 📘 Documentation: https://cursor.com/docs
+    - 🎓 Learning Resources: https://cursor.com/learn (Videos)
+    - 🎥  https://youtu.be/5tvsM6l7TiU?si=ychJvOFHKpb8u_ok
+
+## MiniMax Account (Pre-Required before the event)
+
+To get MiniMax credits during the hackathon:
+
+- Please **create a MiniMax account in advance**
+- Share your **MiniMax Group ID** using this form:
+    
+    👉 https://forms.gle/5Vy9UAbmUf4J6eBt6
+    
+
+⚠️ This is mandatory to ensure we can enable access for you on the day.
+
+## GitHub Account (Required for Team Collaboration)
+
+All participants should have a **GitHub account** to:
+
+- Share code within your team
+- Manage repositories
+- Collaborate efficiently during the hackathon
+
+If you don’t have one, please create it here:
+
+👉 https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
+
+## 🔌 Bring your own charger
+
+## ✨ Bring curiosity, not perfection
+
+### Cursor Pro Trial Changes
+
+- No more pro trial for new users (including hackathons/events)
+- Users need payment method on file to redeem Cursor credits
+- Regional payment issues may affect some participants
+    - Backup solution: shared Cursor team account for regions with payment provider issues.
+    - Users should use new email to avoid disrupting personal accounts as joining a team ends previous subscription.
+
+### Cursor Credits usage information
+
+- We will generate a list of unique URLs for you to share with attendees to redeem Cursor credits for the event.
+- If anyone of the URLs are not worked , please inform the event organizers.
+- Important notes for attendees
+    - To redeem Credits user has to be logged-in in the same browser where they will open the Credits URL (same with QR code).
+    - As long as the Credits were not redeemed (button), the user can open the same URL again in same or other browser. It is important that user has logged in with the right account (non-Team, single user account).
+    - Credits can be redeemed on Free or paid accounts and will be shown in Dashboard > Credits. Redeeming adds the credits to the users account but does not apply them yet.
+    - If attendee is on a Free plan, they can use the free plan first and once they reach the plan limit they will need to start a Pro trial account with a valid payment method for verification.
+    - The credits will be automatically applied to the next invoice.
+        - Free user starts Pro trial or Pro account, the credits will be applied to the invoice once the subscription starts.
+        - Paid account user will see the credits applied to the next invoice.
+    - If you don’t see credits in Dashboard > Credits after redeeming them, try to hard refresh or logout and login to the Dashboard.
+        - If that still doesn’t work, try to check out on Stripe from your dashboard and check if it’s applying there correctly.
+    - Credits will not work if user is on a Team plan, only for single account users like Pro/Pro+/Ultra.
+    - Note: Certain features like Background Agents / Web do not work without a paid plan
